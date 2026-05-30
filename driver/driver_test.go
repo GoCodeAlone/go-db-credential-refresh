@@ -6,7 +6,6 @@ import (
 	"testing"
 
 	"github.com/go-sql-driver/mysql"
-	"github.com/jackc/pgx/v4/stdlib"
 	v5 "github.com/jackc/pgx/v5/stdlib"
 	"github.com/lib/pq"
 )
@@ -175,13 +174,6 @@ func TestCanCreateAllDrivers(t *testing.T) {
 			if driver, ok := d.Driver.(*v5.Driver); !ok {
 				t.Fatalf(
 					"expected pgx factory to create a v5 *stdlib.Driver but got a %T instead",
-					driver,
-				)
-			}
-		case "pgxv4":
-			if driver, ok := d.Driver.(*stdlib.Driver); !ok {
-				t.Fatalf(
-					"expected pgxv4 factory to create a v4 *stdlib.Driver but got a %T instead",
 					driver,
 				)
 			}

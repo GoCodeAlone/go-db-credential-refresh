@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/davepgreene/go-db-credential-refresh/store/vault/vaulttest"
+	"github.com/GoCodeAlone/go-db-credential-refresh/store/vault/vaulttest"
 )
 
 func TestTokenAuth(t *testing.T) {

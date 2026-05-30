@@ -5,11 +5,11 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/davepgreene/go-db-credential-refresh/driver"
+	"github.com/GoCodeAlone/go-db-credential-refresh/driver"
 	"github.com/hashicorp/vault-client-go"
 
-	vaultauth "github.com/davepgreene/go-db-credential-refresh/store/vault/auth"
-	vaultcredentials "github.com/davepgreene/go-db-credential-refresh/store/vault/credentials"
+	vaultauth "github.com/GoCodeAlone/go-db-credential-refresh/store/vault/auth"
+	vaultcredentials "github.com/GoCodeAlone/go-db-credential-refresh/store/vault/credentials"
 )
 
 // TokenLocation is an interface describing how to get a Vault token

@@ -9,8 +9,8 @@ import (
 
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/feature/rds/auth"
-	"github.com/davepgreene/go-db-credential-refresh/driver"
-	"github.com/davepgreene/go-db-credential-refresh/store"
+	"github.com/GoCodeAlone/go-db-credential-refresh/driver"
+	"github.com/GoCodeAlone/go-db-credential-refresh/store"
 )
 
 var (

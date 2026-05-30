@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/davepgreene/go-db-credential-refresh/store"
+	"github.com/GoCodeAlone/go-db-credential-refresh/store"
 	"github.com/hashicorp/vault-client-go"
 
-	vaultcredentials "github.com/davepgreene/go-db-credential-refresh/store/vault/credentials"
-	"github.com/davepgreene/go-db-credential-refresh/store/vault/vaulttest"
+	vaultcredentials "github.com/GoCodeAlone/go-db-credential-refresh/store/vault/credentials"
+	"github.com/GoCodeAlone/go-db-credential-refresh/store/vault/vaulttest"
 )
 
 const (
